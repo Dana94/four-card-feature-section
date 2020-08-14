@@ -1,0 +1,40 @@
+body {
+    /* font-family: Poppins;
+    font-weight: 400;
+     */
+     background-color: hsl(0, 0%, 98%);
+}
+
+.cards {
+    display: flex;
+}
+.card {
+    background-color: white;
+    border-radius: 7px;
+    padding: 1rem 3rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.card.red {
+    border-top-color: hsl(0, 78%, 62%);
+    border-top-width: 7px;
+    border-top-style: solid;
+}
+
+.card.yellow {
+
+}
+
+/* .card .content {
+    display: flex;
+    flex-direction: column;
+} */
+
+img {
+    /* display: flex;
+    justify-self: end; */
+    /* bottom: 10px; */
+    align-self: flex-end;
+}
